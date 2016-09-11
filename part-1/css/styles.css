@@ -20,6 +20,7 @@ body {
   margin: auto;
   border: 3px solid black;
   background-color: #eee;
+  height: 150px;
 }
 
 .box {
@@ -29,20 +30,29 @@ body {
 
 .red {
   background-color: pink;
+  z-index: 400;
 }
 
 .green {
   background-color: lightgreen;
+  margin-left: 200px;
+  z-index: 100
 }
 
 .blue {
   background-color: lightblue;
+  position: relative;
+  left: 100px;
+  z-index: 300;
 }
 
 .orange {
   background-color: orange;
+  margin-left: 250px;
+  z-index: 300;
 }
 
 .yellow {
   background-color: yellow;
+  position: fixed;
 }
