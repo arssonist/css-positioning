@@ -13,6 +13,7 @@ html {
 
 body {
   height: 2000px;
+}
 
 .container {
   width: 90%;
@@ -47,8 +48,8 @@ body {
   background-color: lightgreen;
   z-index: 2;
   position: absolute;
-  top:85px;
-  right:50%;
+  top: 92px;
+  right: 37%;
 }
 
 .orange {
